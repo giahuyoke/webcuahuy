@@ -1,0 +1,82 @@
+body{
+    background-color: salmon;
+}
+header{
+    background-image: url(../img/nền.jpeg);
+    background-size: cover;
+    height: 100vh;
+    background-position: 0 0;
+    font-family: 'lato', Arial;
+    background-attachment: fixed;
+}
+.main1 li{
+    margin-top:80px;
+    margin-right: 50px;
+    float:right;
+    list-style: none;
+    display: inline-block;
+}
+.main1 li a{
+    font-size: 150%;
+    font-family: 'lato',arial;
+    color:white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+summary{
+    font-size: 150%;
+    font-family: 'lato',arial;
+    color: white;
+    margin-left: 10px;
+    list-style: none;
+}
+p{
+    font-size: 60%;
+    font-family: 'lato', arial;
+    color:#ffff;
+}
+.main1 li a:hover{
+    border-bottom: 3px solid wheat;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.logo{
+    width: 500px;
+    margin-top: -100px;
+    margin-left: -150px;
+    float:left;
+}
+.noidung h1{
+    color:rgb(127, 184, 174);
+    font-size: 200%;
+    font-family: 'arial', Times, serif;
+    margin-top: -150;
+}
+.main2 ul{
+    margin-top:-50px;
+}
+.main2 li{
+    list-style: none;
+    display: inline;
+}
+.main2 a{
+    text-decoration: none;
+    background-color: orange;
+    color: #000000;
+    padding: 17px 40px;
+    border-radius: 20px;
+    margin-left: 25px;
+    max-width:100px;
+    height: 50px;
+    text-align: center;
+    transition: all 2s;
+}
+.main2 a:hover{
+    background-color: paleturquoise;
+}
+footer{
+   
+}
